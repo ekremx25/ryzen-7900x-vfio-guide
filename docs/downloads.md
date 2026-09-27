@@ -7,7 +7,7 @@ The repository Releases page carries the reset guard source ZIP and Looking Glas
 - Optional, not validated in this setup: https://github.com/VirtualDrivers/Virtual-Display-Driver/releases
 - GPU firmware source: https://github.com/isc30/ryzen-gpu-passthrough-proxmox
 
-Firmware redistribution permission was not established, so ROMs are referenced rather than mirrored. Required filenames are `vbios_7900x.bin` and `AMDGopDriver_7900.rom`; never use GitHub HTML pages saved as ROMs.
+The reference firmware files `vbios_7900x.bin` and `AMDGopDriver_7900.rom` are included as release assets. They originate from the firmware source linked above; no ownership or new license is claimed. They are specific to the reference setup: verify hardware compatibility before use. Never use GitHub HTML pages saved as ROMs.
 
 ## Locally used files: SHA-256
 

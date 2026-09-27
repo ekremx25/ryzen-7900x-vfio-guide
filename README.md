@@ -27,7 +27,7 @@ This is a hardware-specific reference, not a universal installer. The reset work
 - [`scripts/looking-glass-win11`](scripts/looking-glass-win11): Linux launcher that discovers the VM's SPICE endpoint.
 - [`docs/setup.md`](docs/setup.md): adaptation, installation, testing and recovery.
 
-Disk images, ROMs, ISOs, firmware variable stores, TPM state, credentials, logs, and the Windows device instance ID are deliberately not included. Obtain GPU firmware appropriate to your actual hardware; names alone do not establish compatibility.
+Disk images, firmware variable stores, TPM state, credentials, logs, and the Windows device instance ID are deliberately not included. Reference ROMs and the reset installation ISO are available as release assets. Obtain GPU firmware appropriate to your actual hardware; names alone do not establish compatibility.
 
 ## CPU choices
 
