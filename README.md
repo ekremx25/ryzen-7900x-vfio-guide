@@ -59,3 +59,7 @@ QXL is not required or automatically enabled. Looking Glass/physical output can 
 - [Ryzen GPU passthrough reference](https://github.com/isc30/ryzen-gpu-passthrough-proxmox)
 
 The scripts are provided as source for review. Publication does not imply universal compatibility; retain a working VM definition before testing.
+
+## Downloads
+
+See [installation assets and checksums](docs/downloads.md) and the [Releases page](https://github.com/ekremx25/ryzen-7900x-vfio-guide/releases).
