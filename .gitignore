@@ -1,0 +1,10 @@
+*.iso
+*.rom
+*.bin
+*.raw
+*.img
+*.qcow2
+*.exe
+*.log
+device.txt
+*.backup-*

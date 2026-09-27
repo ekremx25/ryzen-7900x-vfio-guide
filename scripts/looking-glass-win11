@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+import os, subprocess, urllib.parse
+result = subprocess.run(['virsh','-c','qemu:///system','domdisplay','win11'],capture_output=True,text=True)
+if result.returncode:
+    subprocess.run(['notify-send','Looking Glass','Start the win11 virtual machine first.'])
+    raise SystemExit(1)
+url=urllib.parse.urlparse(result.stdout.strip())
+if url.scheme!='spice' or not url.port:
+    raise SystemExit('No SPICE connection found for win11')
+os.execvp('looking-glass-client',['looking-glass-client','-f','/dev/shm/looking-glass','-c',url.hostname or '127.0.0.1','-p',str(url.port),'win:title=Windows 11 — Looking Glass'])
